@@ -1,0 +1,152 @@
+html{
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+/*header*/
+header{
+    text-align: center;
+}
+#banniere{
+    border-radius: 10px;
+}
+
+/*footer*/
+footer{
+    padding: auto 1em;
+    margin: 2em;
+}
+
+/*menu*/
+nav {
+    height: 50px;
+    width: 1280px;
+    margin: 10px auto;
+    position: sticky;
+    top: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:#CCC;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    padding: auto 75px;
+    text-align: center;
+}    
+nav ul li a{    
+    text-decoration: none;
+    text-decoration-line: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #A90331;
+}
+
+/*détails des img*/
+img{
+    display: block;
+    margin: auto;
+}
+#armoiries{
+    width: 250px;
+}
+
+#geo{
+    width: 350px;
+}
+
+#histoire{
+    width: 450px;
+}
+#culture{
+    width: 400px;
+}
+#liens{
+    width: 350px;
+}
+
+/*corps texte*/
+
+body{
+    width: 1280px;
+    text-align: center;
+    font-weight: 24px;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    background-color: #A90331;
+    font-size: 24px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; 
+    height: 50px;
+    line-height: 50px;
+}
+main{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+/*Accueil*/
+#liste{
+    text-align: center;
+    text-decoration: none;
+    color: #A90331;
+}
+#liste:hover{
+    color: black;
+}
+
+/*contact*/
+
+#form{
+    width: 620px;
+    font-weight: 20px;
+    margin: 0 auto;
+}
+#form label{
+    height: 30px;
+    width: 200px;
+}
+#form input{
+    height: 30px;
+    width: 400px;
+}
+#textarea{
+    height: 80px;
+    width: 400px;
+}
+#submit{
+    height: 50px;
+    width: 300px;
+    font-weight: 20px;
+    border-radius: 20px;
+}
+
+/* liens*/
+.capitales{
+    display: inline-block;
+    text-align: center;
+}
+.capitales ul{
+    list-style: none;
+}
+.capitales ul li a{
+    text-decoration: none;
+    color: #A90331;
+}
+.capitales ul li a:hover{
+    color: black;
+}
+
